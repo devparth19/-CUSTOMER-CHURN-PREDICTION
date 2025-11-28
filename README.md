@@ -11,7 +11,7 @@ It includes a complete pipeline from **ETL → preprocessing → model training 
 Shows the true-positive vs false-positive performance across thresholds
 
 <p align="center">
-  <img src="output/roc_curve.png" alt="ROC Curve" width="550">
+  <img src="output/roc_curve.jpeg" alt="ROC Curve" width="550">
 </p>
 
 ---
@@ -20,7 +20,7 @@ Shows the true-positive vs false-positive performance across thresholds
 Displays correct and incorrect predictions of churn vs non-churn
 
 <p align="center">
-  <img src="output/confusion_matrix.png" alt="Confusion Matrix" width="520">
+  <img src="output/confusion_matrix.jpeg" alt="Confusion Matrix" width="520">
 </p>
 
 ---
@@ -29,7 +29,7 @@ Displays correct and incorrect predictions of churn vs non-churn
 Shows which features contribute most strongly to customer churn likelihood
 
 <p align="center">
-  <img src="output/feature_importance.png" alt="Feature Importance" width="650">
+  <img src="output/feature_importance.jpeg" alt="Feature Importance" width="650">
 </p>
 
 ---
