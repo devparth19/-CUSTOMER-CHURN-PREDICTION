@@ -29,10 +29,67 @@ Displays correct and incorrect predictions of churn vs non-churn
 Shows which features contribute most strongly to customer churn likelihood
 
 <p align="center">
-  <img src="output/feature_importance.jpeg" alt="Feature Importance" width="650">
+  <img src="output/impacting_features.jpeg" alt="Feature Importance" width="650">
 </p>
 
 ---
 
-# 📂 Repository Structure
+
+---
+
+# 🧼 ETL & Data Cleaning (telecom_clean.csv)
+
+Performed before training:
+
+✔ Handle missing values  
+✔ Convert `Yes/No` to `1/0`  
+✔ Remove duplicate rows  
+✔ Detect and flag outliers  
+✔ Drop zero-variance columns  
+✔ Standardize categorical and numeric formats  
+
+Final cleaned dataset: **telecom_clean.csv**
+
+---
+
+# 🧠 Machine Learning Pipeline
+
+### ✔ Training & Evaluation
+- Train/test split: 80% train, 20% test
+- Models used:
+  - Logistic Regression
+  - Random Forest Classifier (best performance)
+- Metrics evaluated:
+  - Precision
+  - Recall
+  - F1-Score
+  - ROC-AUC
+
+### 🎯 Best Model Result
+- ROC-AUC ≈ 0.91 (Random Forest)
+
+  
+---
+
+# 🔍 Business Insights From Feature Importance
+
+The model shows that **churn risk increases when customers:**
+
+- Have month-to-month contracts  
+- Have short tenure & low loyalty  
+- Pay higher monthly charges  
+- Lack technical support  
+- Use certain payment methods  
+- Lack online security services  
+
+💡 These are actionable insights for:
+- Retention strategy  
+- Customer segmentation  
+- Predictive marketing  
+- Targeted discount & loyalty offers  
+
+---
+
+
+
 
